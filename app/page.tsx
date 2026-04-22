@@ -24,7 +24,9 @@ export default function Home() {
   const now = new Date().toLocaleString("en-IN", { timeZone: "Asia/Kolkata", hour: "2-digit", minute: "2-digit", hour12: true });
 
   return (
-    <div className="layout min-h-screen flex flex-col">
+    <div className="layout">
+      {/* Background blobs */}
+      <div className="bg-blobs"><div className="bg-blob3" /></div>
 
       {/* ── HEADER ── */}
       <header className="sticky top-0 z-50 flex items-center justify-between px-6 py-3 border-b border-white/[0.06]"
